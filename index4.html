@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css"> -->
+        <!-- <link rel="stylesheet" href="assets/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg"> -->
+        <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container-fluid navbar-default navbar-fixed-top ">
+            <nav class="navbar navbar-nav navbar-expand-md navbar-light bg-light navbar-fixed-top ">
+                <div class="navbar container-fluid navbar-fixed-top">
+                    <!-- <a class="navbar-brand" href="#"> -->
+                    <a class="navbar-brand nav-item nav-link scrollto fw-bold p-2 ms-4" href="#">eNno</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right navbar-header ">
+                    <li class="active text-success nav-item ">
+                        <a class=" nav-item nav-link scrollto text-success" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#about"> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#services"> Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#portfolio"> Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scrollto" href="#team"> Team</a>
+                    </li>
+                    <div class="dropdown nav-item">
+                        <button
+                            class="btn  dropdown-toggle"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Dropdown Button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li>
+                                <a class="dropdown-item" href="#">Dropdown 1</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"> Dropdown 2</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+                                <!-- Deep Dropdown -->
+                                <!-- </a> -->
+                                <div class="dropdown nav-item">
+                                    <button
+                                        class="btn  dropdown-toggle"
+                                        type="button"
+                                        id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                    >
+                                        Dropdown Button
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li>
+                                            <a class="dropdown-item" href="#"> Deep Dropdown 1</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Deep Dropdown 2</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Deep Dropdown 3</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Deep Dropdown 4</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Deep Dropdown 5</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="#">Dropdown 3</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Dropdown 4</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Dropdown 5</a>
+                                </li>
+                            </div>
+                            <li class="nav-item">
+                                <a class="nav-item nav-link scrollto" href="#contact"> Contact</a>
+                            </li>
+                            <button class="btn btn-default btn-outline-primary" type="submit">Get Started</button>
+                        </ul>
+                    </a>
+                    <!-- <nav class="navbar  "> -->
+                    <!-- <div class="container-fluid"> -->
+                    <!-- <div class="navbar-header"> -->
+                    <!-- <i class="bi mobile-nav-toggle bi-x"></i>  -->
+                </nav>
+            </div>
+        </nav>
+    </div>
+</nav>
+<div class="get" id="hero" class="d-flex align-items-center">
+    <div class="container">
+        <a href="#"></a>
+        <div class="row">
+            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                <h1 class=" fs-1 fw-bold">Elegant and creative solutions</h1>
+                <h2 class="fw-light">We are team of talented designers making websites with Bootstrap</h2>
+                <div class="d-flex p-5">
+                    <button type="button" class="btn btn-success ms-4 me-5">Get Started</button>
+                    <!-- <a href="#about" class="btn-get-started scrollto bg-success">Get Started</a> -->
+                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="btn-watch-video ml-5">
+                        <i class="fa-brands fa-youtube" style="font-size:2.3em ;"></i>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img">
+                <img
+                    src="assets/img/hero-img.png"
+                    width="500px"
+                    class="img-fluid animated"
+                    alt=""
+                >
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <h1>Elegant and Creative Solutions</h1> 
+            <h3>We are a team of talented designers making websites with bootstrap</h3>
+            <button>Get Started</button>
+             watch video icon  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"></a>
+            <i class="bi bi-play-circle"></i>
+            <span>Watch Video</span>-->
+</div>
+<div class="row ml-5 mt-5 p-5">
+    <div class="col-md-4 ">
+        <div class="thumbnail">
+            <i class="fa fa-laptop" aria-hidden="true" style="font-size: 2.3rem; "></i>
+            <div class="caption" id="about">
+                <p>
+                    <h3>Lorem Ipsum</h3>
+                </p>
+                dolor, sit amet consectetur adipisicing elit.  dolorum animi accusantium numquam,
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <i class="fa fa-list-alt" aria-hidden="true" style="font-size: 2.3rem;"></i>
+            <img src="" alt="" style="width:100%">
+            <div class="caption">
+                <p>
+                    <h3>Dolor Sitema</h3>
+                </p>
+                Consectetur ab nam eaque, iste atque aut adipisci. Aperiam vel nostrum eligendi odio
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <i class="fa-solid fa-address-book" style="font-size: 2.3rem"></i>
+            <p>
+                <h3>Sed Ut Perspiciatis</h3>
+            </p>
+            atque facere impedit reiciendis quisquam. Consectetur ab nam eaque,
+        </div>
+    </div>
+</div>
+</div>
+<div class="container-fluid">
+    <div class="row d-flex align-items-center mt-5">
+        <div class="imggg col-lg-6 order-2 order-lg-1 about-img">
+            <img
+                src="assets/img/about.png"
+                width="600px"
+                class="img-fluid "
+                alt=""
+            >
+        </div>
+        <div class="col-lg-6 pt-5 pt-lg-0 order-1 order-lg-2 d-flex flex-column ">
+            <p>
+                <h1>
+                    Magnam ad facilis!
+                </h1>
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi omnis ratione vero architecto veniam molestiae et velit, ea nemo cupiditate maxime quo sapiente accusantium rerum reprehenderit error
+            </p>
+            <div class="thumbnail">
+                <ul>
+                    <i class="fa-regular fa-circle-check" style="color: #58ed07;"></i>
+                    consectetur adipisicing elit.
+                </ul>
+                <ul>
+                    <i class="fa-regular fa-circle-check" style="color: #4ce62d;"></i>
+                    architecto veniam molestiae
+                </ul>
+                <ul>
+                    <i class="fa-regular fa-circle-check" style="color: #4ce62d;"></i>
+                    nemo cupiditate maxime quo sapiente
+                </ul>
+                <ul>
+                    <i class="fa-regular fa-circle-check" style="color: #4ce62d;"></i>
+                    accusantium rerum reprehenderit error
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="numbers">
+    <div class="container">
+        <div class="row">
+            <div class="row counters shadow-lg p-5 mt-5 bg-body rounded">
+                <div class="col-lg-3 col-6 text-center ">
+                    <span class="fw-bold fs-1">232</span>
+                    <p>Clients</p>
+                </div>
+                <div class="col-lg-3 col-6 text-center">
+                    <span class="fw-bold fs-1">521</span>
+                    <p>Projects</p>
+                </div>
+                <div class="col-lg-3 col-6 text-center">
+                    <span class="fw-bold fs-1">1463</span>
+                    <p>Hours Of Support</p>
+                </div>
+                <div class="col-lg-3 col-6 text-center">
+                    <span class="fw-bold fs-1">15</span>
+                    <p>Hard Workers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container text-center shadow-lg p-5 mt-5 bg-body rounded">
+    <p id="services">
+        <h1 class="fw-bold">Services</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+    </p>
+</div>
+</div>
+<br>
+<br>
+<br>
+<div class="container">
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-md-4">
+                <p>
+                    <i style="font-size:2rem ;" class="fas fa-thumbs-up"></i>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, sunt reprehenderit quam eos voluptas delectus eius rem sint corporis labore provident corrupti obcaecati. Consequuntur sapiente modi placeat officia eum.</p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    <i style="font-size:2rem ;" class="fas fa-thumbs-up"></i>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, sunt reprehenderit quam eos voluptas delectus eius rem sint corporis labore provident corrupti obcaecati. Consequuntur sapiente modi placeat officia eum.</p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    <i style="font-size:2rem ;" class="fas fa-thumbs-up"></i>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, sunt reprehenderit quam eos voluptas delectus eius rem sint corporis labore provident corrupti obcaecati. Consequuntur sapiente modi placeat officia eum.</p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    <i style="font-size:2rem ;" class="fas fa-thumbs-up"></i>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, sunt reprehenderit quam eos voluptas delectus eius rem sint corporis labore provident corrupti obcaecati. Consequuntur sapiente modi placeat officia eum.</p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    <i style="font-size:2rem ;" class="fas fa-thumbs-up"></i>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, sunt reprehenderit quam eos voluptas delectus eius rem sint corporis labore provident corrupti obcaecati. Consequuntur sapiente modi placeat officia eum.</p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    <i style="font-size:2rem ;" class="fas fa-thumbs-up"></i>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, sunt reprehenderit quam eos voluptas delectus eius rem sint corporis labore provident corrupti obcaecati. Consequuntur sapiente modi placeat officia eum.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container text-center shadow-lg p-5 mt-5 bg-body rounded">
+    <p>
+        <h1 class="fw-bold" id="portfolio">Portfolio</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+    </p>
+    <div class="numbers">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="row bg-body">
+                    <div class="col-lg-3 col-6 text-center ">
+                        <p>
+                            <a href="#all" class="text-reset">All</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-6 text-center">
+                        <p>
+                            <a href="#card" class="text-reset">Card</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-6 text-center">
+                        <p>
+                            <a href="#app" class="text-reset"></a>
+                            App
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <p>
+                            <a href="#web" class="text-reset"> Web</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="all" class="pictures pt-5 ">
+        <img
+            id="app"
+            src="assets/img/portfolio/portfolio-1.jpg"
+            width="300px"
+            i
+            alt=""
+        >
+        <img
+            id="web"
+            src="assets/img/portfolio/portfolio-2.jpg"
+            width="300px"
+            alt=""
+        >
+        <img
+            id="card"
+            src="assets/img/portfolio/portfolio-3.jpg"
+            width="300px"
+            alt=""
+        >
+        <img
+            id="app"
+            src="assets/img/portfolio/portfolio-4.jpg"
+            width="300px"
+            alt=""
+        >
+        <img
+            id="web"
+            src="assets/img/portfolio/portfolio-5.jpg"
+            width="300px"
+            alt=""
+        >
+        <img
+            id="card"
+            src="assets/img/portfolio/portfolio-6.jpg"
+            width="300px"
+            alt=""
+        >
+        <img
+            id="app"
+            src="assets/img/portfolio/portfolio-7.jpg"
+            width="300px"
+            alt=""
+        >
+        <img
+            id="web"
+            src="assets/img/portfolio/portfolio-8.jpg"
+            width="300px"
+            alt=""
+        >
+        <img
+            id="card"
+            src="assets/img/portfolio/portfolio-9.jpg"
+            width="300px"
+            alt=""
+        >
+    </div>
+</div>
+<div class="container text-center shadow-lg p-5  mt-5 bg-body rounded">
+    <p>
+        <h1 class="fw-bold" id="">Testimonials</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+    </p>
+</div>
+<!-- carousel starts here -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide pt-5 ms-4">
+    <div class="carousel-indicators active">
+        <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+        ></button>
+        <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+        ></button>
+        <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+        ></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active ms-5" data-bs-interval="10000">
+            <p></p>
+            <img
+                src="assets/img/caique-nascimento-3ujVzg9i2EI-unsplash.jpg"
+                class="img-thumbnail ms-4 me-4"
+                alt="..."
+                width="200px"
+                height="200px"
+            >
+            <img
+                src="assets/img/philip-martin-5aGUyCW_PJw-unsplash.jpg"
+                width="200px"
+                height="200px"
+                class="img-thumbnail ms-4 me-4"
+                alt="..."
+            >
+            <img
+                src="assets/img/stefan-stefancik-QXevDflbl8A-unsplash.jpg"
+                width="200px"
+                height="200px"
+                class="img-thumbnail ms-4 me-4"
+                alt="..."
+            >
+            <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p>.</p>
+            </div>
+        </div>
+        <div class="carousel-item ms-5" data-bs-interval="2000">
+            <img
+                src="assets/img/caique-nascimento-3ujVzg9i2EI-unsplash.jpg"
+                class="img-thumbnail ms-4 me-4"
+                alt="..."
+                width="200px"
+                height="200px"
+            >
+            <img
+                src="assets/img/stefan-stefancik-QXevDflbl8A-unsplash.jpg"
+                width="200px"
+                height="200px"
+                class="img-thumbnail ms-4 me-4"
+                alt="..."
+            >
+            <img
+                src="assets/img/philip-martin-5aGUyCW_PJw-unsplash.jpg"
+                width="200px"
+                height="200px"
+                class="img-thumbnail ms-4 me-4"
+                alt="..."
+            >
+            <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+            </div>
+        </div>
+        <div class="carousel-item ms-5 ">
+            <img
+                src="assets/img/caique-nascimento-3ujVzg9i2EI-unsplash.jpg"
+                class="img-thumbnail ms-4 me-4"
+                alt="..."
+                width="200px"
+                height="200px"
+            >
+            <img
+                src="assets/img/philip-martin-5aGUyCW_PJw-unsplash.jpg"
+                width="200px"
+                height="200px"
+                class="img-thumbnail ms-4 me-4"
+                alt="..."
+            >
+            <img
+                src="assets/img/stefan-stefancik-QXevDflbl8A-unsplash.jpg"
+                width="200px"
+                height="200px"
+                class="img-thumbnail ms-5 me-4"
+                alt="..."
+            >
+            <div class="carousel-caption d-none d-md-block">
+                <h5></h5>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+    >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+    >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class=" p-5 m-5 bg-success  text-white text-center">
+    <h4>
+        Call To Action
+    </h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quod libero facere, et error reiciendis officia ullam</p>
+    <button class="btn btn-default btn-outline-light mx-auto"> Call To Action</button>
+</div>
+<div class="container-fluid">
+    <div class="col-lg-12">
+        <div class="row p-5 m-5">
+            <div class="col-md-4">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="assets/img/man1.jpeg" alt="">
+                        <div class="card-body">
+                            <div class="">
+                                <div class="">
+                                    <h4> Walter White</h4>
+                                    <p>
+                                        <h5>Chief Executive Officer</h5>
+                                    </p>
+                                    <p>Exercitationem neque saepe facilis alias architecto quod, repellendus porro amet at! Dolorem nihil ipsum quod incidunt inventore illo error voluptatum.</p>
+                                    <p>
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="assets/img/man2.jpeg" alt="">
+                        <div class="card-body">
+                            <div class="">
+                                <div class="">
+                                    <h4> William Anderson</h4>
+                                    <p>
+                                        <h5>CTO</h5>
+                                    </p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nobis sint eveniet optio incidunt inventore illo error voluptatum reiciendis sa</p>
+                                    <p>
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-group">
+                    <div class="card">
+                        <img src="assets/img/woman.jpeg" alt="">
+                        <div class="card-body">
+                            <div class="">
+                                <h4> Sarah Jhinson</h4>
+                                <p>
+                                    <h5>Product Manager</h5>
+                                </p>
+                                <p> Perferendis provident repudiandae, cupiditate aut possimus ut labore recusandae a voluptatibus! officiis, possimus corrupti ullam illo.</p>
+                                <p>
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container text-center shadow-lg p-5 mt-5 bg-body rounded">
+    <p id="contact">
+        <h1 class="fw-bold">Contact</h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+    </p>
+</div>
+<div class="container-fluid"> 
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-md-6 mt-5 p-5 border-top border-bottom border-success">
+                <div class="contact mt-5 p-2">
+                    <div class="location">
+                        <ul>
+                            <i class="fa-solid fa-location-dot m-3" style="color: #0bda35;"></i>
+                                   Location:
+                                    <a href="https://maps.app.goo.gl/jbMk3a1qhfCTyn2L7" class="m-3" target="_blank">A108 Adams Street, New York. NY32174627</a>
+                        </ul>
+                       
+                    </div>
+                    <div class="email">
+                    <ul>
+                        <i class="fa-regular fa-envelope m-3" style="color: #1bff0a; " ></i>
+                        Email:
+                        <a href="mailto:ndamashley11@gmail.com" class=" m-3">info@email.com</a>
+                    </ul>
+                    </div>
+                    <div class="call">
+                        <ul>
+                            <i class="fa-solid fa-phone m-3" style="color: #1eff00;"></i>
+                            Call:
+                               <a href="tel:+123 5443 3445" class=" m-3">+123 5443 3445</a>
+                        </ul>
+                      
+                    </div>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.4397031704566!2d7.567466474215609!3d9.02359219103755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e095bc88e8483%3A0x1e1bbb624aa8e8e8!2sNyanya%20Park%20Abuja!5e0!3m2!1sen!2sng!4v1709560476095!5m2!1sen!2sng"
+                    width="600"
+                    height="350"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+
+            <div class="col-md-6 mt-5 p-5 border-top border-bottom border-success">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <label for="text" class="form-label"> Your Name</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter name"
+                                name="name"
+                            >
+                        </div>
+                        <div class="col">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Enter email"
+                                name="email"
+                            >
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="text" class="form-label mt-2">Subject</label>
+                        <input
+                            type="password"
+                            class="form-control mt-2"
+                            id="sub"
+                            placeholder=""
+                            name="subject"
+                        >
+                    </div>
+                    <label for="comment">Message</label>
+                    <textarea
+                        class="form-control mt-2"
+                        rows="10"
+                        id="comment"
+                        name="text"
+                    ></textarea>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-success mt-5 p-2 ">Send Message</button>
+                    </div>
+                </form>
+            </div>
+    
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer text-center m-3 mt-5 p-2" style="background-color:#949596 ;">
+    <h2 class="mt-5 ">eNno</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore placeat ratione necessitatibus doloremque tempore</p>
+    <form>
+        <div class="col-12 d-flex align-items-center justify-content-center">
+            <div class="col-4   ">
+                <div class="input-group mb-3">
+                    <input
+                        style="outline: #16dd80;"
+                        type="text"
+                        class="form-control"
+                        placeholder="Enter your email"
+                        aria-label="Enter your username"
+                        aria-describedby="button-addon2"
+                    >
+                    <button
+                        class="btn btn-secondary btn-sm"
+                        style="background-color: #16dd80; outline: #16dd80; color: #fff;"
+                        type="button"
+                        id="button-addon2"
+                    >Subscribe</button>
+                </div>
+                <div class="align-items-center mt-5 m-3 p-2">
+                    <button type="button" class="btn btn-secondary btn-sm" style="background-color: #949596;">
+                       <a href="https://www.facebook.com/cstandright?mibextid=ZbWKwL"><i style="color: #000;" class="fa-brands fa-facebook-f"></i></a> 
+                    </button>
+                    <button type="button" class="btn  btn-outline-secondary btn-sm" style="background-color: #949596;">
+                       <a href="https://twitter.com/settings"><i style="color: #000;" class="fa-brands fa-twitter"></i></a> 
+                    </button>
+                    <button type="button" onclick="alert('how are you today?')" class="btn btn-secondary btn-sm" style="background-color: #949596;">
+                        <i style="color: #000;" class="fa-brands fa-square-instagram"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary btn-sm" style="background-color: #949596;">
+                        <i style="color: #000;" class="fa-brands fa-linkedin"></i>
+                    </button>
+                    <button type="button" class="btn btn-secondary btn-sm" style="background-color: #949596;">
+                         <a href="https://wa.me/2348060546289?text=Hey+I+saw+your+ad. " target="_blank"><i style="color: #000;" class="fa-brands fa-whatsapp"></i></a>
+                    </button>
+                </div>
+            </div>
+            <span class=" border border-bottom border-success"></span>
+        </div>
+       
+       
+        <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+        <!-- <input type="text" class="form-control" placeholder="Enter email" name="email"> -->
+        <!-- </div> -->
+        <!-- <div class="col"> -->
+        <!-- <div class="btn"><button type="submit" class="btn btn-primary p-2 ms-4">Subscribe</button></div> -->
+        <!--  -->
+    </div>
+</div>
+</form>
+</div>
+
+<div class="container-fluid border-top border-success mt-5">
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-md-6 ">
+                <p class="m-5"> Copyright eNno All Rights Reserved  </p>
+            </div>
+            <div class="col-md-6 d-flex mt-5"><p class="p-2"> Designed by <a href="Bootstrap Made" class="">Bootstrap Made</a></p> 
+            </div>
+        </div>
+
+    </div>
+             
+<div>
+    <!-- <h1 id="grandTotal"></h1> -->
+</div>
+
+</div>
+<p id="demo">  </p>
+<button type="button" onclick="myFunction()"  class="btn btn-secondary btn-sm" style="background-color: #949596;">
+    click me
+</button>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
